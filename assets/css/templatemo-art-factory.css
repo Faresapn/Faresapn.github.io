@@ -680,6 +680,68 @@ header
 .header-area.header-sticky .nav li a.active {
   color: #f55858;
 }
+/* cardtesti */
+.card-testi{
+  padding: 30px; 
+  border-radius: 10px;
+  height: 200px;
+  visibility: visible;  
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   background: white;
+   display: flex;
+}
+.card-testi p{
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+.testimonial .testimonial-profile {
+  display: table;
+  padding: 15px;
+  /* border: 1px solid #dca842; */
+  border-radius: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+.testimonial-content{
+  position: relative;
+}
+.testimonial .post {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+.testimonial .pic {
+  margin-top: 15px;
+  float: left;
+  overflow: hidden;
+}
+.testimonial .title {
+  display: inline-block;
+  margin: 0 0 0 10px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  top: 22px;
+}
+.testimonial .testimonial-content:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-top: 20px solid #ffffff;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+}
+
+
   /* cardview */
 .card-view{
   padding: 30px; 
@@ -690,7 +752,7 @@ header
    background: white;
 }
 
-.card-view img{
+.card-view img,.card-testi img{
   margin-top: 40px;
 }
 .hosting_title{
@@ -702,6 +764,11 @@ header
 .circle-orange{
   position: absolute; 
   right: 0; 
+}
+.quotes{
+  position: absolute;
+  right: 100px;
+  top: 50px;
 }
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
@@ -954,6 +1021,13 @@ about
   #registration {
     padding: 20px 0px 120px 0px;
   }
+  .card-testi{
+    padding: 30px; 
+    height: 250px;
+    visibility: visible;  
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     background: white;
+  }
   .card-view{
     padding: 30px; 
     height: 250px;
@@ -963,7 +1037,7 @@ about
      background: white;
   }
   
-  .card-view img{
+  .card-view img, .card-testi img{
     margin-top: 40px;
   }
 }
@@ -1048,6 +1122,11 @@ services
   position: relative;
   padding: 120px 0px 90px 0px;
 background: #1C75BC;
+}
+#services h1{
+  color: white;
+  max-width: 400px;
+  margin-bottom: 30px;
 }
 
 .service-item {
