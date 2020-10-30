@@ -145,7 +145,7 @@ p {
 margin-top: 100px;
 }
 .margin-left-100{
-  margin-left: 100px;
+  margin-left: 100px!important;
 }
 .items-acc {
   border: none;
