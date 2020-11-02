@@ -778,6 +778,10 @@ header
   .header-area .main-nav:before {
     display: none;
   }
+  .circle-orange{
+    position: absolute; 
+    right: 100px; 
+  }
 }
 
 @media (max-width: 991px) {
@@ -866,6 +870,7 @@ header
   .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+  
 }
 
 @media (min-width: 992px) {
