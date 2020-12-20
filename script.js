@@ -6,12 +6,12 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Faresa";
+  sender = "Desy";
 }
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Pacarku", "Aku ada pertanyaan nih buat kamu By", "question").then(function () {
+  Swal.fire("Hallo Pacarku", "Aku ada pertanyaan nih buat kamu yank", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalau kamu bohong", "", "error").then(function () {
 
@@ -24,7 +24,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           showCancelButton: true,
           inputValidator: (value) => {
             if (!value) {
-              return 'Isi dulu dong by'
+              return 'Isi dulu dong yank'
             } else {
               nama = value;
             }
