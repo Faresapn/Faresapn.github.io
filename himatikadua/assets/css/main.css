@@ -890,11 +890,12 @@ ol {
   .container {
     width: 450px;
   }
-.hide-this{
+}
+@media (max-width: 991px) {
+  .hide-this{
     display: none;
   }
 }
-
 /* Bread Crumbs */
 .breadcrumbs {
   position: relative;
