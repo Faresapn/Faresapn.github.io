@@ -55,7 +55,7 @@ button:focus,
 select {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
-  color: #081828;
+  color: #29166F;
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
@@ -115,7 +115,7 @@ h5,
 h6 {
   font-weight: 600;
   margin: 0px;
-  color: #081828;
+  color: #29166F;
 }
 
 h1 a,
@@ -1164,7 +1164,7 @@ ol {
   box-shadow: 0 1rem 3rem rgba(35, 38, 45, 0.15) !important;
   -webkit-transform: translate3d(0, -5px, 0);
   transform: translate3d(0, -5px, 0);
-  background-color: #081828;
+  background-color: #29166F;
 }
 
 /* Overlay */
@@ -1180,7 +1180,7 @@ ol {
   width: 100%;
   height: 100%;
   opacity: 0.4;
-  background: #081828;
+  background: #29166F;
   content: "";
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -1223,7 +1223,7 @@ ol {
 
 .pagination .pagination-list li a {
   background: #fff;
-  color: #081828;
+  color: #29166F;
   font-weight: 400;
   font-size: 14px;
   border-radius: 5px;
@@ -1293,7 +1293,7 @@ ol {
 
 .button .btn:hover {
   color: #fff;
-  background-color: #081828;
+  background-color: #29166F;
   -webkit-box-shadow: 0px 4px 4px #0000000f;
           box-shadow: 0px 4px 4px #0000000f;
 }
@@ -1655,7 +1655,7 @@ ol {
 }
 
 .header.sticky .button .btn:hover {
-  background-color: #081828;
+  background-color: #29166F;
   color: #fff;
 }
 
@@ -1685,7 +1685,7 @@ ol {
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
-  color: #081828;
+  color: #29166F;
 }
 
 .header .navbar .navbar-nav .nav-item .sub-menu a.active {
@@ -2059,7 +2059,7 @@ ol {
 }
 
 .hero-area .hero-content .button .btn:hover {
-  background-color: #081828;
+  background-color: #29166F;
   color: #fff;
 }
 
@@ -2092,7 +2092,7 @@ ol {
 
 .hero-area .hero-content .button .video-button:hover .video {
   color: #fff;
-  background-color: #081828;
+  background-color: #29166F;
 }
 
 .hero-area .hero-content .button .video-button .video {
@@ -2414,7 +2414,7 @@ ol {
   width: 100%;
   padding: 12px 30px;
   font-size: 13px;
-  background-color: #081828;
+  background-color: #29166F;
 }
 
 .pricing-table .single-table .table-head .button .btn:hover {
@@ -2530,7 +2530,7 @@ ol {
 
 .call-action .cta-content .button .btn:hover {
   color: #fff;
-  background-color: #081828;
+  background-color: #29166F;
 }
 
 /*======================================
@@ -2588,7 +2588,7 @@ ol {
 .error-area .error-content h2 {
   font-size: 25px;
   margin-bottom: 10px;
-  color: #081828;
+  color: #29166F;
   font-weight: 700;
 }
 
@@ -2637,7 +2637,7 @@ ol {
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #081828;
+  background-color: #29166F;
   position: relative;
 }
 
